@@ -27,7 +27,7 @@ namespace throwapp
                         throw;
                     }
                 }                
-            } catch (Exception ex) {
+            } catch (Exception) {
                 Console.WriteLine("Fallo por algo");    
             }
             Console.WriteLine("Fin");
